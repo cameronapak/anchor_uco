@@ -44,8 +44,23 @@
 
     {{ template "_internal/google_analytics.html" . }}
 
+    <!-- Animation WayPoints Plugin -->
+    <script src="{{ .Site.BaseURL }}/js/jquery.waypoints.min.js"></script>
+
     <script>
       console.log("Whoever Finds God Finds Life!");
+
+      // hide our element on page load
+
+
+      $(document).ready(function() {
+        $('.event-card').css('opacity', 0);
+
+        $('.event-card').waypoint(function() {
+          $('.event-card').addClass('event-card-animate');
+          console.log("Waypoint!!");
+        }, { offset: '80%' });
+      });
     </script>
 
     <!-- Netlify CMS -->
