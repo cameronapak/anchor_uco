@@ -17,5 +17,6 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "when", widget: "string" }
+      - {label: "Time", name: "time", widget: "string" }
       - {label: "Location", name: "where", widget: "string"}
       - {label: "Description", name: "what", widget: "string"}

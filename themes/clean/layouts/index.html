@@ -42,6 +42,9 @@
                   {{ if isset .Params "when" }}
                     <div class="event-date"><i class="far fa-calendar-alt"></i> {{.Params.When}}</div>
                   {{ end }}
+                  {{ if isset .Params "time" }}
+                    <div class="event-date"><i class="far fa-clock"></i> {{.Params.Time}}</div>
+                  {{ end }}
                   {{ if isset .Params "where" }}
                     <div class="event-date"><i class="fas fa-map-marker-alt"></i> {{.Params.Where}}</div>
                   {{ end }}
