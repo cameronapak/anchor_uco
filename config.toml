@@ -1,7 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 title = "Anchor Ministries"
 theme = "clean"
-# baseurl = "http://humboldtux.github.io/sbcb-demo"
 canonifyurls = true
 paginate = 10
 languageCode = "en-us"
