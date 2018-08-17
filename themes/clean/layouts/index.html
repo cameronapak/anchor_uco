@@ -56,8 +56,7 @@
           <div class="site-heading">
             <h1>Get in Touch</h1>
             <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhla16Nwv6wmVCc8IgibVAzjhd0pti5IMD3hAEi7tK5Cledw/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
-            <form>
-
+            <form name="contact" method="POST" netlify>
               <div class="row">
                  <div class="form-group col-md-6">
                    <label for="inputFirstName">First Name</label>
@@ -128,24 +127,5 @@
         </div>
       </div>
     </div>
-
-    <!-- Main Content
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
-          {{ range first $posts (where .Data.Pages "Type" "post") }}
-              {{ .Render "summary"}}
-          {{ end }}
-          <!- - Pager - ->
-          <ul class="pager">
-            <li class="next">
-              <a href="{{ .Site.BaseURL }}/post/">Older Posts &rarr;</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  -->
 
 {{ partial "footer.html" .}}
