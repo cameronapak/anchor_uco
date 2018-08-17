@@ -7,9 +7,9 @@
                     {{ with .Site.Params.email }}
                       <li>
                         <a href="mailto:{{ . }}">
-                          <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
                           </span>
                         </a>
                       </li>
@@ -17,17 +17,17 @@
                     {{ if isset .Site.Params "social" }}
                     {{ range .Site.Params.social }}
                     <li>
-                      <a href="{{ .url }}">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
+                      <a href="{{ .url }}" target="_blank">
+                        <span class="fa-stack fa-2x">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-{{ .title }} fa-stack-1x fa-inverse"></i>
                         </span>
                       </a>
                     </li>
                     {{ end }}
                     {{ end }}
                   </ul>
-                  <p class="copyright text-muted">2018 (C) Anchor Student Ministries</p>
+                  <p class="copyright text-muted">2018 &copy; Anchor Student Ministries</p>
                 </div>
             </div>
         </div>
@@ -44,6 +44,9 @@
 
     {{ template "_internal/google_analytics.html" . }}
 
+    <script>
+      console.log("Whoever Finds God Finds Life!");
+    </script>
 </body>
 
 </html>

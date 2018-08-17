@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
 <head>
-
+    <!--
+     __                        __
+     \ \  ___  ___ _   _ ___  / _\ __ ___   _____  ___
+      \ \/ _ \/ __| | | / __| \ \ / _` \ \ / / _ \/ __|
+   /\_/ /  __/\__ \ |_| \__ \ _\ \ (_| |\ V /  __/\__ \_
+   \___/ \___||___/\__,_|___/ \__/\__,_| \_/ \___||___(_)
+    -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ end }}">
     <meta name="author" content="{{ if .Params.authors }}{{ .Params.authors }}{{ else if .Site.Params.Author }}{{.Site.Params.Author}}{{ end }}">
     <meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ end }}">
-
 
     <title>{{ .Title }} -- {{ .Site.Title }}</title>
 
@@ -25,7 +29,6 @@
     <link href="{{ .Site.BaseURL }}/css/clean-blog.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 

@@ -15,7 +15,7 @@
     </header>
 
     <!-- Mission Statement -->
-    <div class="container section">
+    <div class="container section" id="mission">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb-3">
           <div class="site-heading">
@@ -27,78 +27,103 @@
     </div>
 
     <!-- Events Section -->
-    <div class="container section section-dark">
+    <div class="container section section-dark" style="background-image: url('{{ .Site.BaseURL }}/img/anchor_banner.png');" id="events">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           <div class="site-heading">
             <h1>Events</h1>
             <div class="events justify-content-center">
+            {{ range where .Pages "Section" "events" }}
               <div class="col-sm-4">
                 <div class="event-card">
-                  <!-- <img src="{{ .Site.BaseURL }}/img/post-sample-image.jpg" width="100%"> -->
-                  <div class="event-title">
-                    Guys Night
-                  </div>
-                  <div class="event-date"><i class="far fa-calendar-alt"></i> Every Thursday</div>
-                  <div class="event-date"><i class="fas fa-map-marker-alt"></i> 100 N University Dr, Edmond, OK 73034</div>
-                  <div class="event-description">
-                    We are bringing the men together for a night of games, fun, Jesus, and brotherhood.
-                  </div>
+                  <div class="event-title">{{.Title}}</div>
+                  <div class="event-date"><i class="far fa-calendar-alt"></i> {{.Params.When}}</div>
+                  <div class="event-date"><i class="fas fa-map-marker-alt"></i> {{.Params.Where}}</div>
+                  <div class="event-description">{{.Params.What}}</div>
                 </div>
               </div>
-              <div class="col-sm-4">
-                <div class="event-card">
-                  <!-- <img src="{{ .Site.BaseURL }}/img/post-sample-image.jpg" width="100%"> -->
-                  <div class="event-title">
-                    Navigate
-                  </div>
-                  <div class="event-date"><i class="far fa-calendar-alt"></i> Every Thursday</div>
-                  <div class="event-date"><i class="fas fa-map-marker-alt"></i> 100 N University Dr, Edmond, OK 73034</div>
-                  <div class="event-description">
-                    This is a time to dig deeper in the word and in our faith.
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="event-card">
-                  <!-- <img src="{{ .Site.BaseURL }}/img/post-sample-image.jpg" width="100%"> -->
-                  <div class="event-title">
-                    Girls Night
-                  </div>
-                  <div class="event-date"><i class="far fa-calendar-alt"></i> Every Thursday</div>
-                  <div class="event-date"><i class="fas fa-map-marker-alt"></i> 100 N University Dr, Edmond, OK 73034</div>
-                  <div class="event-description">
-                    We are bringing the women together for a night of games, fun, Jesus, and womenhood.
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="event-card">
-                  <!-- <img src="{{ .Site.BaseURL }}/img/post-sample-image.jpg" width="100%"> -->
-                  <div class="event-title">
-                    Girls Night
-                  </div>
-                  <div class="event-date"><i class="far fa-calendar-alt"></i> Every Thursday</div>
-                  <div class="event-date"><i class="fas fa-map-marker-alt"></i> 100 N University Dr, Edmond, OK 73034</div>
-                  <div class="event-description">
-                    We are bringing the women together for a night of games, fun, Jesus, and womenhood.
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="event-card">
-                  <!-- <img src="{{ .Site.BaseURL }}/img/post-sample-image.jpg" width="100%"> -->
-                  <div class="event-title">
-                    Girls Night
-                  </div>
-                  <div class="event-date"><i class="far fa-calendar-alt"></i> Every Thursday</div>
-                  <div class="event-date"><i class="fas fa-map-marker-alt"></i> 100 N University Dr, Edmond, OK 73034</div>
-                  <div class="event-description">
-                    We are bringing the women together for a night of games, fun, Jesus, and womenhood.
-                  </div>
-                </div>
-              </div>
+            {{ end }}
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="container section" id="contact">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb-3">
+          <div class="site-heading">
+            <h1>Get in Touch</h1>
+            <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhla16Nwv6wmVCc8IgibVAzjhd0pti5IMD3hAEi7tK5Cledw/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+            <form>
+
+              <div class="row">
+                 <div class="form-group col-md-6">
+                   <label for="inputFirstName">First Name</label>
+                   <input type="text" name="first_name" class="form-control" id="inputFirstName" placeholder="" required>
+                 </div>
+                 <div class="form-group col-md-6">
+                   <label for="inputLastName">Last Name</label>
+                   <input type="text" name="last_name" class="form-control" id="inputLastName" placeholder="" required>
+                 </div>
+               </div>
+
+               <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="inputPhone">Phone Number</label>
+                    <input type="Phone" name="phone_number" class="form-control" id="inputPhone" placeholder="" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputInstagram">Instagram</label>
+                    <input type="text" name="instagram" class="form-control" id="inputInstagram" placeholder="@" required>
+                  </div>
+                </div>
+
+              <div class="form-group">
+                <label>Interests:</label>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" name="interest" checked value="myRelationshipWithJesus">
+                    My Relationship with Jesus
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" name="interest" value="discoveryBibleStudy">
+                    Discovery Bible Studies
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" name="interest" value="prayerOnCampus">
+                    Prayer on Campus
+                  </label>
+                </div>
+
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" name="interest" value="discipleshipGroups">
+                    Discipleship Groups
+                  </label>
+                </div>
+
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" name="interest" value="worshipOpportunities">
+                    Worship Opportunities
+                  </label>
+                </div>
+
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" name="interest" value="conferenceAndRetreats">
+                    Conferences and Retreats
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
           </div>
         </div>
       </div>
