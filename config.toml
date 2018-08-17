@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://kind-darwin-6d4876.netlify.com/"
 title = "Anchor Ministries"
 theme = "clean"
 canonifyurls = true
