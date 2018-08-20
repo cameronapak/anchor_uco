@@ -35,7 +35,7 @@
             <div class="events">
             {{ range where .Pages "Section" "events" }}
               <div class="col-sm-4">
-                <div class="event-card">
+                <div class="event-card" draggable="true">
                   <div class="event-title">{{.Title}}</div>
                   <div class="event-date"><i class="far fa-calendar-alt"></i> {{.Params.When}}</div>
                   {{ if (not (eq .Params.Time "")) }}
