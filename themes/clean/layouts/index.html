@@ -48,7 +48,7 @@
                   {{ if isset .Params "where" }}
                     <div class="event-date"><i class="fas fa-map-marker-alt"></i> {{.Params.Where}}</div>
                   {{ end }}
-                  {{ if isset .Params "what" }}
+                  {{ if (not (eq .Params.What "")) }}
                     <div class="event-description">{{.Params.What}}</div>
                   {{ end }}
                 </div>
