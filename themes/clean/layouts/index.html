@@ -36,18 +36,12 @@
             {{ range where .Pages "Section" "events" }}
               <div class="col-sm-4">
                 <div class="event-card">
-                  {{ if isset .Params "title" }}
-                    <div class="event-title">{{.Title}}</div>
+                  <div class="event-title">{{.Title}}</div>
+                  <div class="event-date"><i class="far fa-calendar-alt"></i> {{.Params.When}}</div>
+                  {{ if (not (eq .Params.Time "")) }}
+                  <div class="event-date"><i class="far fa-clock"></i> {{.Params.Time}}</div>
                   {{ end }}
-                  {{ if isset .Params "when" }}
-                    <div class="event-date"><i class="far fa-calendar-alt"></i> {{.Params.When}}</div>
-                  {{ end }}
-                  {{ if isset .Params "time" }}
-                    <div class="event-date"><i class="far fa-clock"></i> {{.Params.Time}}</div>
-                  {{ end }}
-                  {{ if isset .Params "where" }}
-                    <div class="event-date"><i class="fas fa-map-marker-alt"></i> {{.Params.Where}}</div>
-                  {{ end }}
+                  <div class="event-date"><i class="fas fa-map-marker-alt"></i> {{.Params.Where}}</div>
                   {{ if (not (eq .Params.What "")) }}
                     <div class="event-description">{{.Params.What}}</div>
                   {{ end }}
