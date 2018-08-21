@@ -51,15 +51,24 @@
       console.log("Whoever Finds God Finds Life!");
 
       // hide our element on page load
-
-
       $(document).ready(function() {
         $('.event-card').css('opacity', 0);
 
         $('.event-card').waypoint(function() {
           $('.event-card').addClass('event-card-animate');
-          console.log("Waypoint!!");
+          hasAnimated = true;
         }, { offset: '80%' });
+
+        /* Fix Card Height on Desktop */
+    		if (window.screen.width >= 1024) {
+          var heights = $(".event-card").map(function() {
+              return $(this).height();
+          }).get(),
+
+          maxHeight = Math.max.apply(null, heights);
+
+          $(".event-card").height(maxHeight);
+    		}
       });
     </script>
 
