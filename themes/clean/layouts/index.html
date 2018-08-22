@@ -88,18 +88,9 @@
                 <div class="form-group col-md-6">
                   <label for="inputGradYear">Grad Year</label>
                   <select class="form-control" id="inputGradYear" name="grad_year">
-                    <option>2018</option>
-                    <option>2019</option>
-                    <option>2020</option>
-                    <option>2021</option>
-                    <option>2122</option>
-                    <option>2123</option>
-                    <option>2124</option>
-                    <option>2125</option>
-                    <option>2125</option>
-                    <option>2126</option>
-                    <option>2127</option>
-                    <option>2128</option>
+                    {{ range $i, $sequence :=  (seq 11) }}
+                      <option>{{ add $i now.Year }}</option>
+                    {{ end }}
                     <option>Graduated</option>
                     <option>Not in School</option>
                   </select>
