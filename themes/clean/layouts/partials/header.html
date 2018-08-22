@@ -2,11 +2,11 @@
 <html lang="{{ .Site.LanguageCode }}">
 <head>
     <!--
-     __                        __
-     \ \  ___  ___ _   _ ___  / _\ __ ___   _____  ___
-      \ \/ _ \/ __| | | / __| \ \ / _` \ \ / / _ \/ __|
-   /\_/ /  __/\__ \ |_| \__ \ _\ \ (_| |\ V /  __/\__ \_
-   \___/ \___||___/\__,_|___/ \__/\__,_| \_/ \___||___(_)
+       __                        __
+       \ \  ___  ___ _   _ ___  / _\ __ ___   _____  ___
+        \ \/ _ \/ __| | | / __| \ \ / _` \ \ / / _ \/ __|
+     /\_/ /  __/\__ \ |_| \__ \ _\ \ (_| |\ V /  __/\__ \_
+     \___/ \___||___/\__,_|___/ \__/\__,_| \_/ \___||___(_)
     -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +16,8 @@
     <meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ end }}">
 
     <title>{{ .Title }} -- {{ .Site.Title }}</title>
+
+    <link rel="shortcut icon" href="/favicon.ico">
 
     {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -34,6 +36,9 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Netlify Identity -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
