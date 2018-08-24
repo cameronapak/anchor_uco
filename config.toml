@@ -4,6 +4,7 @@ theme = "clean"
 canonifyurls = true
 paginate = 10
 languageCode = "en-us"
+keywords = "anchor student ministries, anchor uco, anchor university of central oklahoma"
 # copyright = "Code released under the Apache 2.0 license."
 # googleAnalytics = "UA-123-45" # delete or comment to disable Google Analytics JS generation
 
