@@ -13,7 +13,7 @@ keywords = "anchor student ministries, anchor uco, anchor university of central 
 
 [params]
   DateForm = "Mon, Jan 2, 2006"
-  Description = "We are a ministry, holding to the truth of the gospel, strengthening students in their faith, and empowering students to proclaim a message of hope."
+  Description = ""
   Author = "Anchor UCO"
   email = "anchoruco@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
   postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
