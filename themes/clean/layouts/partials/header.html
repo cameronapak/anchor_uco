@@ -14,11 +14,11 @@
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ end }}">
     <meta name="author" content="{{ if .Params.authors }}{{ .Params.authors }}{{ else if .Site.Params.Author }}{{.Site.Params.Author}}{{ end }}">
     <meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ end }}">
-    
+
     <!-- Google SEO -->
     <meta name="google-site-verification" content="CphpzSSzPjC3mv9yEcNEtoRzi5OPcer3TyBj5-LDPcY" />
 
-    <title>{{ .Title }} -- {{ .Site.Title }}</title>
+    <title>{{ .Site.Title }}</title>
 
     <link rel="shortcut icon" href="/favicon.ico">
 
