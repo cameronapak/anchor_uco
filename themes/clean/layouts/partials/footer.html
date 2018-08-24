@@ -52,7 +52,7 @@
       console.log("Whoever Finds God Finds Life!");
 
       /* hide our element on page load */
-      $(document).ready(function() {
+      window.onload = function() {
         $('.event-card').css('opacity', 0);
 
         $('.event-card').waypoint(function() {
@@ -70,7 +70,7 @@
 
           $(".event-card").height(maxHeight);
     		}
-      });
+      };
     </script>
 
     <!-- Netlify CMS -->
