@@ -1,4 +1,4 @@
-baseURL = "https://anchoruco.netlify.com/"
+baseURL = "https://anchoruco.com/"
 title = "Anchor Ministries"
 theme = "clean"
 canonifyurls = true
