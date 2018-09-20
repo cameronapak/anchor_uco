@@ -38,7 +38,7 @@
                 <div class="event-card">
                   <div class="event-title">{{.Title}}</div>
                   <div class="event-date"><i class="far fa-calendar-alt"></i> {{.Params.When}}</div>
-                  {{ if (not (eq .Params.Time "")) }}
+                  {{ if .Params.Time }}
                   <div class="event-date"><i class="far fa-clock"></i> {{.Params.Time}}</div>
                   {{ end }}
                   <div class="event-date"><i class="fas fa-map-marker-alt"></i> {{.Params.Where}}</div>
