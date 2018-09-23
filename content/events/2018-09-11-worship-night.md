@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Worship Night
+title: "Worship Night \U0001F3BC"
 when: 'Monday, Sept 24'
 time: 7-9PM
 where: 'Nigh: Cherokee Room #213'
