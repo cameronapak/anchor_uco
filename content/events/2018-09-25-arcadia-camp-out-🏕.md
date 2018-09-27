@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Arcadia Camp Out \U0001F3D5"
-when: October 16-17
+when: October 17-18
 time: TBD
 where: 'Lake Arcadia '
 what: >-
