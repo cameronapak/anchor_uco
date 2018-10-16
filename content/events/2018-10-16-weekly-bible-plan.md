@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Weekly Bible Plan
+title: "\U0001F4DCWeekly Bible Plan"
 when: 2nd Week of October
 where: Anywhere
 what: Known - A 5-Day Devotional By Tauren Wells
