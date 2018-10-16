@@ -524,7 +524,23 @@ form .row:first-child .floating-label-form-group {
 .btn-default:focus {
     background-color: #4B79A1;
     border: 1px solid #4B79A1;
-    color: #fff
+    color: #fff;
+}
+
+/* button in Events */
+.btn-event {
+  margin-top: 1rem;
+  width: 100%;
+  color: #fff;
+  background-color: #4B79A1;
+  border: 1px solid #4B79A1;
+}
+
+.btn-event:hover,
+.btn-event:focus {
+  color: #4B79A1;
+  background-color: #FFF;
+  border: 1px solid #4B79A1;
 }
 
 .pager {

@@ -18,3 +18,4 @@ collections:
       - {label: "Time", name: "time", widget: "string", required: false }
       - {label: "Location", name: "where", widget: "string" }
       - {label: "Description", name: "what", widget: "string", required: false }
+      - {label: "Bible Plan Link", name: "cta", widget: "string", required: false }
