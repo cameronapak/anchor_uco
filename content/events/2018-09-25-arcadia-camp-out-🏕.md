@@ -1,11 +1,12 @@
 ---
 layout: blog
-title: "Arcadia Camp Out \U0001F3D5"
-when: October 17-18
-time: 6pm
-where: 'Lake Arcadia '
+title: "Guys Night! \U0001F4AA"
+when: October 26
+time: 7pm
+where: Josh P’s Cabin
 what: >-
-  This is a fun time that we invite many International Students to come and camp
-  out ⛺️
+  This night will be filled with Friends, Fellowship, and Food. We look forward
+  to gathering as men and encouraging one another in life. For location details
+  contact Zach or Kevin. Guys Only!
 ---
 
