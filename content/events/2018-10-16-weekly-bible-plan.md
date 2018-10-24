@@ -1,9 +1,9 @@
 ---
 layout: blog
 title: "\U0001F4DCWeekly Bible Plan"
-when: 2nd Week of October
+when: Starts on Wed. Oct 24th
 where: Anywhere
-what: Known - A 5-Day Devotional By Tauren Wells
-cta: 'https://bible.com/p/8162274/20ab4ac45bc75f88ad6f5b761bcf3411'
+what: Who is the Holy Spirit
+cta: 'https://bible.com/p/8337696/d2379b8e0ca223bdbdd41907e64556b7'
 ---
 
