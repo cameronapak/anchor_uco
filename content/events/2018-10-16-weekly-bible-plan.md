@@ -1,9 +1,9 @@
 ---
 layout: blog
 title: "\U0001F4DCWeekly Bible Plan"
-when: Starts on Wed. Oct 24th
+when: Starts on Wed. Oct 31st
 where: Anywhere
 what: Who is the Holy Spirit
-cta: 'https://bible.com/p/8337696/d2379b8e0ca223bdbdd41907e64556b7'
+cta: 'http://bible.com/r/1z'
 ---
 
