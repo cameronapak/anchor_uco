@@ -1,9 +1,12 @@
 ---
 layout: blog
-title: "\U0001F4DCWeekly Bible Plan"
+title: "\U0001F4DCWeekly Bible Plan - Set Apart"
 when: Starts on Wed. Oct 31st
 where: Anywhere
-what: 'Friendship '
-cta: 'https://bible.com/p/8513611/31b1a276bc2f23dce1a5269b302013e6'
+what: >-
+  God calls us to be holy and to live holy lives. But what does that even mean?
+  In this five-day Plan, we’ll look at what holiness really looks like for our
+  lives.
+cta: 'https://www.bible.com/en-GB/reading-plans/11171-set-apart'
 ---
 
