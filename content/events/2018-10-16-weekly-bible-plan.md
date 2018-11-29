@@ -1,11 +1,12 @@
 ---
 layout: blog
-title: "\U0001F4DCWeekly Bible Plan - Your Grace Finds Me"
+title: "\U0001F4DCWeekly Bible Plan - Letters To The Church"
 when: Today
 where: Anywhere
 what: >-
-  A 12 day devotional that connecting encouraging truths of scripture with Matt
-  Redman's album "Your Grace Finds Me".
-cta: 'https://bible.com/p/8892843/69cc22f36d9bda5b889f77cfb6939a6d'
+  Speaking out of deep love for the Church, Francis Chan guides Christ followers
+  to live out God’s magnificent and beautiful vision for His Church—a vision we
+  may have lost but God has never forgotten.
+cta: 'https://bible.com/p/9254340/ecbc3d69f364f555403e81b05808c6a9'
 ---
 
