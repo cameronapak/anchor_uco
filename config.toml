@@ -26,10 +26,10 @@ keywords = "anchor student ministries, anchor uco, anchor university of central 
   title = "facebook"
   url = "https://www.facebook.com/anchoruco/"
 
-[[menu.main]]
-  name = "home"
-  url = "/"
-  weight = -200
+# [[menu.main]]
+#   name = "home"
+#   url = "/"
+#   weight = -200
 [[menu.main]]
   name = "mission"
   url = "/#mission"
