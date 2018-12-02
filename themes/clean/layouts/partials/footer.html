@@ -44,9 +44,6 @@
 
     {{ template "_internal/google_analytics.html" . }}
 
-    <!-- Animation WayPoints Plugin -->
-    <script src="{{ .Site.BaseURL }}/js/jquery.waypoints.min.js"></script>
-
     <!-- Scroll animation -->
     <script src="{{ .Site.BaseURL }}/js/smooth-scroll.min.js"></script>
     <script>
@@ -58,13 +55,6 @@
 
       /* hide our element on page load */
       window.onload = function() {
-        $('.event-card').css('opacity', 0);
-
-        $('.event-card').waypoint(function() {
-          $('.event-card').addClass('event-card-animate');
-          hasAnimated = true;
-        }, { offset: '80%' });
-
         /* Fix Card Height on Desktop */
     		if (window.screen.width >= 768) {
           var heights = $(".event-card").map(function() {
