@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "\U0001F4DCWeekly Bible Plan - Letters To The Church"
+title: "\U0001F4DC Bible App Plan - Letters To The Church"
 when: Today
 where: Anywhere
 what: >-
