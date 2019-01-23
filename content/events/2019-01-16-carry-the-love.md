@@ -9,5 +9,6 @@ what: >-
   message of the gospel. Carry The Love is a night where we are reminded of the
   love that we're called to take with us everywhere we go. This is a high energy
   event that you don't want to let pass by.
+cta: 'https://www.facebook.com/events/355204791912454/'
 ---
 
