@@ -8,5 +8,5 @@ what: >-
   Brave Love is a women’s gathering inspiring this generation of women to be
   catalyst and women of solution. Click the button below for more information.
 cta: 'http://bravelovewomen.com/'
+ctaMessage: 'More Info'
 ---
-

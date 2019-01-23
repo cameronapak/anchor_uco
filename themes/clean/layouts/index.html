@@ -44,7 +44,7 @@
                     <div class="event-description">{{.Params.What}}</div>
                   {{ end }}
                   {{ if .Params.Cta }}
-                    <a href="{{.Params.Cta}}" target="_blank"><button class="btn btn-event">Join Bible Plan</button></a>
+                    <a href="{{.Params.Cta}}" target="_blank"><button class="btn btn-event">{{.Params.CtaMessage}}</button></a>
                   {{ end }}
                 </div>
               </div>

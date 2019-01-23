@@ -8,5 +8,5 @@ what: >-
   to live out God’s magnificent and beautiful vision for His Church—a vision we
   may have lost but God has never forgotten.
 cta: 'https://bible.com/p/9254340/ecbc3d69f364f555403e81b05808c6a9'
+ctaMessage: 'Join Bible Plan'
 ---
-
