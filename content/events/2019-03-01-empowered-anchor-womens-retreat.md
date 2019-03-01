@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Empowered - Anchor Women's Retreat
+title: "\U0001F645‍♀️Empowered\U0001F44A - Anchor Women's Retreat"
 when: March 29th-31st
 time: Carpool leaving Friday after classes end
 where: Lake Tenkiller
