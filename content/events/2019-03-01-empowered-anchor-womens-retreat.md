@@ -9,6 +9,7 @@ what: >-
   community, real talks about struggles women face in our culture, encountering
   Jesus, and being empowered to live boldly! Cost $25 all meals included. Sign
   up to reserve your spot- sign up below-check conferences and retreats
-ctaMessage: link
+cta: 'https://quickclick.com/r/kj2yx'
+ctaMessage: Register NOW
 ---
 
