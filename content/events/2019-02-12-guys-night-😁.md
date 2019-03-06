@@ -1,13 +1,14 @@
 ---
 layout: blog
-title: "Guys Night \U0001F601"
-when: 'Friday, March 1st'
-time: 7-11PM
-where: Josh P’s cabin
+title: Worship Night
+when: 'Tuesday, April 16th'
+time: '7-9:30PM'
+where: TBA
 what: >-
-  Hey fellas just wanted to inform you all that there will be a guys night this
-  Friday March 1st at 7 at Josh’s Grandparents cabin. It will be clue themed and
-  there will be lots of mini games and good food! SPREAD THE WORD!! 
+  This will be a special Anchor night! Heading into finals can be stressful and
+  heavy. We want to invite you to a night of worship. the goal is to connect
+  with God and be refreshed. Make sure not to miss out on this special
+  gathering.
 ctaMessage: ''
 ---
 
