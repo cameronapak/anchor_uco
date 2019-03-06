@@ -2,7 +2,7 @@
 layout: blog
 title: Worship Night
 when: 'Tuesday, April 16th'
-time: '7-9:30PM'
+time: '7:30PM - 9:30PM'
 where: TBA
 what: >-
   This will be a special Anchor night! Heading into finals can be stressful and
