@@ -1,6 +1,6 @@
 ---
 title: "\U0001F64F Campus Prayer"
-when: SEE YOU IN THE SPRING!
+when: Thursdays
 time: 11AM - 1PM
 where: Nigh University Center - Room 202
 what: >-
