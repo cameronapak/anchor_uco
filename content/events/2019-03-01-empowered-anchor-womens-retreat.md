@@ -8,7 +8,7 @@ what: >-
   Known, Accepted, Free!  Come join us for a weekend away filled with fun,
   community, real talks about struggles women face in our culture, encountering
   Jesus, and being empowered to live boldly! Cost $25 all meals included. *Sign
-  up to reserve your spot by clicking register sign up below! *
+  up now full 
 cta: ''
 ctaMessage: ''
 ---
