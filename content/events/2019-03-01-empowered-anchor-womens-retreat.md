@@ -1,15 +1,15 @@
 ---
 layout: blog
-title: "\U0001F645‍♀️Empowered\U0001F44A - Anchor Women's Retreat"
-when: March 29th-31st
-time: 'Carpool leaving Friday after classes end '
-where: Lake Tenkiller
+title: Dodgeball Tournament
+when: Thursday April 11th
+time: 8PM
+where: UCO Wellness Center
 what: >-
-  Known, Accepted, Free!  Come join us for a weekend away filled with fun,
-  community, real talks about struggles women face in our culture, encountering
-  Jesus, and being empowered to live boldly! Cost $25 all meals included. *Sign
-  up now full 
-cta: ''
+  This is a free event for UCO students or student groups. Free pizza and drinks
+  for everyone. Rules: 5 on 5 / Must be CO-ED teams / Double Elimination / UCO
+  Students Only. Prizes: 1st - $200 / 2nd - $100 / 3rd - $50. Enter by April
+  11th @ 5pm.  
+cta: www.ucobcm.com/dodgeball
 ctaMessage: ''
 ---
 
