@@ -9,7 +9,7 @@ what: >-
   for everyone. Rules: 5 on 5 / Must be CO-ED teams / Double Elimination / UCO
   Students Only. Prizes: 1st - $200 / 2nd - $100 / 3rd - $50. Enter by April
   11th @ 5pm.  
-cta: www.ucobcm.com/dodgeball
-ctaMessage: ''
+cta: 'http://ucobcm.com/dodgeball'
+ctaMessage: REGISTER
 ---
 
