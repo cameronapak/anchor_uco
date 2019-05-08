@@ -1,15 +1,15 @@
 ---
 layout: blog
-title: Dodgeball Tournament
-when: Thursday April 11th
-time: 8PM
-where: UCO Wellness Center
+title: Conversing With God
+when: Tuesdays (Starting May 21)
+time: '6:30pm to 8:30pm'
+where: 'Jessica''s House: Text (405) 207-1062 for directions'
 what: >-
-  This is a free event for UCO students or student groups. Free pizza and drinks
-  for everyone. Rules: 5 on 5 / Must be CO-ED teams / Double Elimination / UCO
-  Students Only. Prizes: 1st - $200 / 2nd - $100 / 3rd - $50. Enter by April
-  11th @ 5pm.  
-cta: 'http://ucobcm.com/dodgeball'
+  What if you could walk so closely with god that it's easy for you to hear His
+  voice and know his Mind? Join us going beyond the anxious, uncertain quest for
+  "what God wants me to Do" and into the individual He desires me to Be -
+  becoming a confident co-laborer WITH Him. 
+cta: ''
 ctaMessage: REGISTER
 ---
 
