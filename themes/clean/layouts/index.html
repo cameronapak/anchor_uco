@@ -13,6 +13,8 @@
 </header>
 
 <!-- Banner (optional) -->
+{{ $endDate := (time "2019-07-16")  }}
+{{ if ($endDate.After now) }}
 <div class="container section" id="banner" style="padding-bottom: 0px;">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb-3">
@@ -25,6 +27,7 @@
     </div>
   </div>
 </div>
+{{ end }}
 
 <!-- Mission Statement -->
 <div class="container section" id="mission">
