@@ -20,3 +20,4 @@ collections:
       - {label: "Description", name: "what", widget: "string", required: false }
       - {label: "Link", name: "cta", widget: "string", required: false }
       - {label: "Button Message", name: "ctaMessage", widget: "string", required: false, default: "link"}
+      - {label: "Image", name: "thumbnail", widget: "image", required: false }

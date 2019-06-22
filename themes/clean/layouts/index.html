@@ -1,153 +1,170 @@
 {{ partial "header.html" .}}
 
-    <!-- Page Header -->
-    <header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/uco_banner.png')">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-           <div class="site-heading">
-           </div>
-         </div>
-       </div>
-     </div>
-    </header>
-
-    <!-- Mission Statement -->
-    <div class="container section" id="mission">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb-3">
-          <div class="site-heading">
-            <h1>Welcome!</h1>
-            <span class="subheading">We are a para-church organization at the University of Central Oklahoma that is holding fast to the truth of the gospel, strengthening students in their faith, and empowering students to proclaim a message of hope to those around them.</span>
-          </div>
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/uco_banner.png')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading">
         </div>
       </div>
     </div>
+  </div>
+</header>
 
-    <!-- Events Section -->
-    <div class="container section section-dark anchor_banner" id="events">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          <div class="site-heading">
-            <h1>You're Invited</h1>
-            <div class="events">
-            {{ range where .Pages "Section" "events" }}
-              <div class="col-sm-4">
-                <div class="event-card">
-                  <div class="event-title">{{.Title}}</div>
-                  <div class="event-date"><i class="far fa-calendar-alt"></i> {{.Params.When}}</div>
-                  {{ if .Params.Time }}
-                  <div class="event-date"><i class="far fa-clock"></i> {{.Params.Time}}</div>
-                  {{ end }}
-                  <div class="event-date"><i class="fas fa-map-marker-alt"></i> {{.Params.Where}}</div>
-                  {{ if (not (eq .Params.What "")) }}
-                    <div class="event-description">{{.Params.What}}</div>
-                  {{ end }}
-                  {{ if .Params.Cta }}
-                    <a href="{{.Params.Cta}}" target="_blank"><button class="btn btn-event">{{.Params.CtaMessage}}</button></a>
-                  {{ end }}
-                </div>
-              </div>
-            {{ end }}
+<!-- Banner (optional) -->
+<div class="container section" id="banner" style="padding-bottom: 0px;">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb-3">
+      <div class="site-heading">
+        <div class="alert alert-info" role="alert">
+          <strong>Back to School Retreat!</strong>
+          Early bird special ends on July 16th. Details below.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mission Statement -->
+<div class="container section" id="mission">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb-3">
+      <div class="site-heading">
+        <h1>Welcome!</h1>
+        <span class="subheading">We are a para-church organization at the University of Central Oklahoma that is holding
+          fast to the truth of the gospel, strengthening students in their faith, and empowering students to proclaim a
+          message of hope to those around them.</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Events Section -->
+<div class="container section section-dark anchor_banner" id="events">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="site-heading">
+        <h1>You're Invited</h1>
+        <div class="events">
+          {{ range where .Pages "Section" "events" }}
+          <div class="col-sm-4">
+            <div class="event-card">
+              <div class="event-title">{{.Title}}</div>
+              <div class="event-date"><i class="far fa-calendar-alt"></i> {{.Params.When}}</div>
+              {{ if .Params.Time }}
+              <div class="event-date"><i class="far fa-clock"></i> {{.Params.Time}}</div>
+              {{ end }}
+              <div class="event-date"><i class="fas fa-map-marker-alt"></i> {{.Params.Where}}</div>
+              {{ if (not (eq .Params.What "")) }}
+              <div class="event-description">{{.Params.What}}</div>
+              {{ end }}
+              {{ if .Params.Cta }}
+              <a href="{{.Params.Cta}}" target="_blank"><button
+                  class="btn btn-event">{{.Params.CtaMessage}}</button></a>
+              {{ end }}
             </div>
           </div>
+          {{ end }}
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Form -->
-    <div class="container section" id="contact">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb-3">
-          <div class="site-heading">
-            <h1>Get in Touch</h1>
-            <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhla16Nwv6wmVCc8IgibVAzjhd0pti5IMD3hAEi7tK5Cledw/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
-            <form name="contact" method="POST" netlify>
-              <div class="row">
-                 <div class="form-group col-md-6">
-                   <label for="inputFirstName">First Name</label>
-                   <input type="text" name="first_name" class="form-control" id="inputFirstName" placeholder="" required>
-                 </div>
-                 <div class="form-group col-md-6">
-                   <label for="inputLastName">Last Name</label>
-                   <input type="text" name="last_name" class="form-control" id="inputLastName" placeholder="" required>
-                 </div>
-               </div>
-
-               <div class="row">
-                  <div class="form-group col-md-6">
-                    <label for="inputPhone">Phone Number</label>
-                    <input type="Phone" name="phone_number" class="form-control" id="inputPhone" placeholder="" required>
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputInstagram">Instagram</label>
-                    <input type="text" name="instagram" class="form-control" id="inputInstagram" value="@" required>
-                  </div>
-                </div>
-
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="inputGradYear">Grad Year</label>
-                  <select class="form-control" id="inputGradYear" name="grad_year">
-                    {{ range $i, $sequence :=  (seq 11) }}
-                      <option>{{ add $i now.Year }}</option>
-                    {{ end }}
-                    <option>Graduated</option>
-                    <option>Not in School</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label>Interests:</label>
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" name="interest[]" checked value="myRelationshipWithJesus">
-                      My Relationship with Jesus
-                    </label>
-                  </div>
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" name="interest[]" value="discoveryBibleStudy">
-                      Discovery Bible Studies
-                    </label>
-                  </div>
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" name="interest[]" value="prayerOnCampus">
-                      Campus Prayer
-                    </label>
-                  </div>
-
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" name="interest[]" value="discipleshipGroups">
-                      Discipleship Groups
-                    </label>
-                  </div>
-
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" name="interest[]" value="worshipOpportunities">
-                      Worship Opportunities
-                    </label>
-                  </div>
-
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" name="interest[]" value="conferenceAndRetreats">
-                      Conferences and Retreats
-                    </label>
-                  </div>
-                </div>
-              </div>
-
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
+<!-- Form -->
+<div class="container section" id="contact">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb-3">
+      <div class="site-heading">
+        <h1>Get in Touch</h1>
+        <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhla16Nwv6wmVCc8IgibVAzjhd0pti5IMD3hAEi7tK5Cledw/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+        <form name="contact" method="POST" netlify>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="inputFirstName">First Name</label>
+              <input type="text" name="first_name" class="form-control" id="inputFirstName" placeholder="" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputLastName">Last Name</label>
+              <input type="text" name="last_name" class="form-control" id="inputLastName" placeholder="" required>
+            </div>
           </div>
-        </div>
+
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="inputPhone">Phone Number</label>
+              <input type="Phone" name="phone_number" class="form-control" id="inputPhone" placeholder="" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputInstagram">Instagram</label>
+              <input type="text" name="instagram" class="form-control" id="inputInstagram" value="@" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="inputGradYear">Grad Year</label>
+              <select class="form-control" id="inputGradYear" name="grad_year">
+                {{ range $i, $sequence :=  (seq 11) }}
+                <option>{{ add $i now.Year }}</option>
+                {{ end }}
+                <option>Graduated</option>
+                <option>Not in School</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label>Interests:</label>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="interest[]" checked value="myRelationshipWithJesus">
+                  My Relationship with Jesus
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="interest[]" value="discoveryBibleStudy">
+                  Discovery Bible Studies
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="interest[]" value="prayerOnCampus">
+                  Campus Prayer
+                </label>
+              </div>
+
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="interest[]" value="discipleshipGroups">
+                  Discipleship Groups
+                </label>
+              </div>
+
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="interest[]" value="worshipOpportunities">
+                  Worship Opportunities
+                </label>
+              </div>
+
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="interest[]" value="conferenceAndRetreats">
+                  Conferences and Retreats
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
       </div>
     </div>
+  </div>
+</div>
 
 {{ partial "footer.html" .}}
