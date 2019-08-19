@@ -1,14 +1,13 @@
 ---
 layout: blog
-title: 'Love OKC - ONE Day '
-when: Saturday August 17 2019
+title: Winter Retreat
+when: Tuesday January 7th - Sunday January 11th
 time: '7am - 2pm '
-where: 'OKC Fairgrounds '
+where: Red River NM
 what: >-
-  This is one day where the church of oklahoma city is able to connect and offer
-  support with people who are in need. We will be serving all together in the
-  "Connections Area"
-cta: 'https://www.loveokc.com/one-day-volunteer'
-ctaMessage: Register to Volunteer
+  Skiing, Snow-Mobiles, Worship, Prayer, and Group Conversations with the people
+  of Anchor. 
+cta: ''
+ctaMessage: ''
 ---
 
