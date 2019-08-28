@@ -1,0 +1,36 @@
+<!-- Events Section -->
+<div class="container section section-dark anchor_banner" id="events">
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1">
+            <div class="site-heading">
+                <h1>You're Invited</h1>
+                <div class="events">
+                    {{ range where .Pages "Section" "events" }}
+                    <div class="col-sm-4">
+                        <div class="event-card">
+                            <div class="event-title">{{.Title}}</div>
+                            {{ if .Params.Thumbnail }}
+                            <div class="thumbnail">
+                                <img src="{{.Params.Thumbnail}}" alt="Image of {{.Title}} event">
+                            </div>
+                            {{ end }}
+                            <div class="event-date"><i class="far fa-calendar-alt"></i> {{.Params.When}}</div>
+                            {{ if .Params.Time }}
+                            <div class="event-date"><i class="far fa-clock"></i> {{.Params.Time}}</div>
+                            {{ end }}
+                            <div class="event-date"><i class="fas fa-map-marker-alt"></i> {{.Params.Where}}</div>
+                            {{ if (not (eq .Params.What "")) }}
+                            <div class="event-description">{{.Params.What}}</div>
+                            {{ end }}
+                            {{ if .Params.Cta }}
+                            <a href="{{.Params.Cta}}" target="_blank"><button
+                                    class="btn btn-event">{{.Params.CtaMessage}}</button></a>
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
