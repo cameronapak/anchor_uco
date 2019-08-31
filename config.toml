@@ -17,7 +17,7 @@ keywords = "anchor student ministries, anchor uco, anchor university of central 
   postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = true #set to false to exclude read time from header of post
   whoWeAre = "We are a para-church organization at the University of Central Oklahoma that is holding fast to the truth of the gospel, strengthening students in their faith, and empowering students to proclaim a message of hope to those around them."
-  googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSc6e7Q1ij_d2W6SRgiGPUfiDSsmOWDc1a-Qqi0r4nV_2yuBbQ/viewform?embedded=true"
+  googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdMcWVoPwnO1cwJm4D8F2c23s1Xc6GMuv02hDsm6UkgHp_Xmg/viewform?embedded=true"
 
 [[params.social]]
   title = "instagram"

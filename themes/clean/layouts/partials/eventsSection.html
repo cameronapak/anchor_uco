@@ -34,3 +34,19 @@
         </div>
     </div>
 </div>
+
+<script>
+    /* hide our element on page load */
+    window.onload = function () {
+        /* Fix Card Height on Desktop */
+        if (window.screen.width >= 768) {
+            var heights = $(".event-card").map(function () {
+                return $(this).height();
+            }).get(),
+
+                maxHeight = Math.max.apply(null, heights);
+
+            $(".event-card").height(maxHeight);
+        }
+    };
+</script>
