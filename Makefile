@@ -1,3 +1,3 @@
 # Want to start the app?
-start:
+run:
 	hugo server
