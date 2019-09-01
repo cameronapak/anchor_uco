@@ -38,3 +38,7 @@ keywords = "anchor student ministries, anchor uco, anchor university of central 
   name = "contact"
   url = "/#contact"
   weight = -140
+[[menu.main]]
+  name = "free bible"
+  url = "https://bible.com/app"
+  weight = -120
