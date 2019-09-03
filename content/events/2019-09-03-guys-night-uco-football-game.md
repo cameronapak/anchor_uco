@@ -10,6 +10,6 @@ what: >-
   prefer. Topic of discussion will be community and Jesus' disciples. Tickets
   are free with  your student ID.  Reach out to them: Jackson (405)757-5055 or
   Micah (918)809-4818
-ctaMessage: link
+ctaMessage: ''
 ---
 
