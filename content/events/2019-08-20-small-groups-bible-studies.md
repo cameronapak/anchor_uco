@@ -1,10 +1,14 @@
 ---
 layout: blog
 title: 'Freedom Night - Small Group '
-when: Monday September 9th
+when: Mondays starting September 9th
 time: 7pm
 where: '316 E Thatcher St '
-what: 'Joy Filled, Community, & Freedom'
+what: >-
+  Freedom night aims to be a place of light for students to come and grow in
+  gospel centered community while also providing a space for students to connect
+  and find joy. Anyone is invited. You should attend because it will be WILDLY
+  FUN, RELIEVING< and filled with WORSHIP. A reminder of your freedom.
 ctaMessage: ''
 ---
 
