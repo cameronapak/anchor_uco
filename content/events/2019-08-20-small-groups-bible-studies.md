@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'Freedom Night - Small Group '
+title: 'Freedom Night '
 when: Mondays starting September 9th
 time: 7pm
 where: '316 E Thatcher St '
