@@ -13,21 +13,7 @@
 </header>
 
 <!-- Banner (optional) -->
-{{ $endDate := (time "2019-07-16")  }}
-{{ if ($endDate.After now) }}
-<div class="container section" id="banner" style="padding-bottom: 0px;">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb-3">
-      <div class="site-heading">
-        <div class="alert alert-info" role="alert">
-          <strong>Back to School Retreat!</strong>
-          Early bird special ends on July 16th. Details below.
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-{{ end }}
+{{ partial "banner.html" .}}
 
 <!-- Mission Statement -->
 <div class="container section" id="mission">
