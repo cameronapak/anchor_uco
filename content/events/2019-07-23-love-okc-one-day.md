@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'Winter Retreat '
+title: "Winter Retreat \U0001F3BF  ❄️ "
 when: 'Tuesday, January 7th - Saturday, January 11th'
 time: ''
 where: 'Red River, NM'
