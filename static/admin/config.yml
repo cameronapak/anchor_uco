@@ -27,6 +27,9 @@ collections:
       - label: "Site Banner"
         name: "banner"
         file: "data/site_conf/banner.yml"
+        editor:
+          preview: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Enabled", name: "enabled", widget: "boolean", default: true}
