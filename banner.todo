@@ -10,5 +10,5 @@ HOW?
 ✔ Push to master @done(19-09-03 21:54)
 ✔ Test with Netlify CMS @done(19-09-03 22:07)
 ✔ See why test banner might not have popped up. How do I edit the file? @done(19-09-03 22:07)
-- set char limit for title and also for description
-- how do I access this just via one file, not range over file(s)?
+✘ set char limit for title nd also for description @cancelled(19-09-03 22:39)
+✔ how do I access this just via one file, not range over file(s)? @done(19-09-03 22:39)
