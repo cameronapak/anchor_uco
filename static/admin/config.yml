@@ -21,3 +21,12 @@ collections:
       - {label: "Link", name: "cta", widget: "string", required: false }
       - {label: "Button Message", name: "ctaMessage", widget: "string", required: false, default: "link"}
       - {label: "Image", name: "thumbnail", widget: "image", required: false }
+  - label: "Site Config"
+    name: "config"
+    files: 
+      - label: "Site Banner"
+        name: "banner"
+        file: "content/site_conf/banner.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false}
