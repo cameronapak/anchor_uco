@@ -1,0 +1,14 @@
+WHAT AM I TRYING TO ACCOMPLISH?
+As a student, I want to see up to date updates/alert on the anchor website, so that I can know what's going on.
+
+HOW?
+✔ Figure out how I was able to make events. @done(19-09-03 21:21)
+✔ Edit the config file to allow me to make a banner. @done(19-09-03 21:21)
+✔ Learn about Netlify CMS collections @done(19-09-03 21:54)
+✔ Create a test banner @done(19-09-03 21:54)
+✔ Edit some html partial that will accept a single banner. @done(19-09-03 21:54)
+✔ Push to master @done(19-09-03 21:54)
+✔ Test with Netlify CMS @done(19-09-03 22:07)
+✔ See why test banner might not have popped up. How do I edit the file? @done(19-09-03 22:07)
+- set char limit for title and also for description
+- how do I access this just via one file, not range over file(s)?
