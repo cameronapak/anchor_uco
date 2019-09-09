@@ -11,6 +11,6 @@ what: >-
   before October1st!
 cta: 'https://quickclick.com/r/9dexl'
 ctaMessage: $25 Deposit NOW
-thumbnail: /images/uploads/event_opening-day.jpg
+thumbnail: /images/uploads/img_8816.jpeg
 ---
 
