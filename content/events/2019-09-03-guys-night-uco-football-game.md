@@ -1,15 +1,13 @@
 ---
 layout: blog
-title: 'Guy''s Night: UCO Football Game'
-when: Thursday September 5th
-time: '6:45pm'
-where: Wantland Stadium
+title: 'Guy''s Night: UCO Library'
+when: Thursday September 12th
+time: 7pm
+where: Max Chambers Library (4th floor)
 what: >-
-  Jackson & Micah will be leading this time for guys to get to know each other
-  and connect on another level. Eat before, or at the game. Whichever you
-  prefer. Topic of discussion will be community and Jesus' disciples. Tickets
-  are free with  your student ID.  Reach out to them: Jackson (405)757-5055 or
-  Micah (918)809-4818
+  Intentional connections and also casual fun. Boards games and small groups.
+  Topic of discussion will be community.  Reach out to them: Jackson
+  (405)757-5055 or Micah (918)809-4818
 ctaMessage: ''
 ---
 
