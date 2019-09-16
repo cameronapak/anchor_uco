@@ -1,13 +1,10 @@
 ---
 layout: blog
-title: 'Guy''s Night: UCO Library'
-when: Thursday September 12th
-time: 7pm
-where: Max Chambers Library (4th floor)
-what: >-
-  Intentional connections and also casual fun. Boards games and small groups.
-  Topic of discussion will be community.  Reach out to them: Jackson
-  (405)757-5055 or Micah (918)809-4818
+title: Relationship Workshop
+when: Sunday October 20th
+time: '7:30pm'
+where: TBA
+what: ' Come back early from fall break to enjoy and grow in the topic of dating relationships. Zac and Jessica will both share lessons they have learned and experienced on their ways to finding enriching relationships. We’ll serve a light dinner and sit out by the campfire while discussing this fun topic. Please consider joining us.'
 ctaMessage: ''
 ---
 
