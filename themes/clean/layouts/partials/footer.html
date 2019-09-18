@@ -1,83 +1,69 @@
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  <ul class="list-inline text-center">
-                    {{ with .Site.Params.email }}
-                      <li>
-                        <a href="mailto:{{ . }}">
-                          <span class="fa-stack fa-2x">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                          </span>
-                        </a>
-                      </li>
-                    {{ end }}
-                    {{ if isset .Site.Params "social" }}
-                    {{ range .Site.Params.social }}
-                    <li>
-                      <a href="{{ .url }}" target="_blank">
-                        <span class="fa-stack fa-2x">
-                          <i class="fas fa-circle fa-stack-2x"></i>
-                          <i class="fab fa-{{ .title }} fa-stack-1x fa-inverse"></i>
-                        </span>
-                      </a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
-                  </ul>
-                  <p class="copyright text-muted">2018 &copy; <a style="text-decoration: none;" href="https://my.bible.com/bible/116/HEB.6.19" target="_blank">Anchor Ministries at UCO</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          {{ with .Site.Params.email }}
+          <li>
+            <a href="mailto:{{ . }}">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ if isset .Site.Params "social" }}
+          {{ range .Site.Params.social }}
+          <li>
+            <a href="{{ .url }}" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-{{ .title }} fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        <p class="copyright text-muted">{{ now.Format "2006" }} &copy; <a style="text-decoration: none;"
+            href="https://my.bible.com/bible/116/HEB.6.19" target="_blank">{{.Site.Title}}</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
 
-    <!-- jQuery -->
-    <script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="{{ .Site.BaseURL }}/js/clean-blog.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.js"></script>
 
-    {{ template "_internal/google_analytics.html" . }}
+{{ template "_internal/google_analytics.html" . }}
 
-    <!-- Scroll animation -->
-    <script src="{{ .Site.BaseURL }}/js/smooth-scroll.min.js"></script>
-    <script>
-    	var scroll = new SmoothScroll('a[href*="#"]');
-    </script>
+<!-- Scroll animation -->
+<script src="/js/smooth-scroll.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 
-    <script>
-      console.log("Whoever Finds God Finds Life!");
-
-      /* hide our element on page load */
-      window.onload = function() {
-        /* Fix Card Height on Desktop */
-    		if (window.screen.width >= 768) {
-          var heights = $(".event-card").map(function() {
-              return $(this).height();
-          }).get(),
-
-          maxHeight = Math.max.apply(null, heights);
-
-          $(".event-card").height(maxHeight);
-    		}
-      };
-
-      <!-- Netlify CMS -->
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
+<script>
+  console.log("Whoever Finds God Finds Life!");
+  // netlify CMS
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
         });
       }
-    </script>
+    });
+  }
+</script>
 </body>
 
 </html>

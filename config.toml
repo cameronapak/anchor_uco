@@ -5,8 +5,6 @@ canonifyurls = true
 paginate = 10
 languageCode = "en-us"
 keywords = "anchor student ministries, anchor uco, anchor university of central oklahoma"
-# copyright = "Code released under the Apache 2.0 license."
-# googleAnalytics = "UA-123-45" # delete or comment to disable Google Analytics JS generation
 
 [author]
   name = "Cameron Pak"
@@ -18,6 +16,8 @@ keywords = "anchor student ministries, anchor uco, anchor university of central 
   email = "anchoruco@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
   postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = true #set to false to exclude read time from header of post
+  whoWeAre = "We are a para-church organization at the University of Central Oklahoma that is holding fast to the truth of the gospel, strengthening students in their faith, and empowering students to proclaim a message of hope to those around them."
+  googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdMcWVoPwnO1cwJm4D8F2c23s1Xc6GMuv02hDsm6UkgHp_Xmg/viewform?embedded=true"
 
 [[params.social]]
   title = "instagram"
@@ -26,10 +26,6 @@ keywords = "anchor student ministries, anchor uco, anchor university of central 
   title = "facebook"
   url = "https://www.facebook.com/anchoruco/"
 
-# [[menu.main]]
-#   name = "home"
-#   url = "/"
-#   weight = -200
 [[menu.main]]
   name = "mission"
   url = "/#mission"
@@ -42,3 +38,7 @@ keywords = "anchor student ministries, anchor uco, anchor university of central 
   name = "contact"
   url = "/#contact"
   weight = -140
+[[menu.main]]
+  name = "free bible"
+  url = "https://bible.com/app"
+  weight = -120

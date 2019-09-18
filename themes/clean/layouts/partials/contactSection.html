@@ -1,0 +1,98 @@
+<!-- Form -->
+<div class="container section" id="contact">
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1 mb-3">
+            <div class="site-heading">
+                <h1>Get in Touch</h1>
+                <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhla16Nwv6wmVCc8IgibVAzjhd0pti5IMD3hAEi7tK5Cledw/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+                <form name="contact" method="POST" netlify>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="inputFirstName">First Name</label>
+                            <input type="text" name="first_name" class="form-control" id="inputFirstName" placeholder=""
+                                required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastName">Last Name</label>
+                            <input type="text" name="last_name" class="form-control" id="inputLastName" placeholder=""
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="inputPhone">Phone Number</label>
+                            <input type="Phone" name="phone_number" class="form-control" id="inputPhone" placeholder=""
+                                required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputInstagram">Instagram</label>
+                            <input type="text" name="instagram" class="form-control" id="inputInstagram" value="@"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="inputGradYear">Grad Year</label>
+                            <select class="form-control" id="inputGradYear" name="grad_year">
+                                {{ range $i, $sequence :=  (seq 11) }}
+                                <option>{{ add $i now.Year }}</option>
+                                {{ end }}
+                                <option>Graduated</option>
+                                <option>Not in School</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label>Interests:</label>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="interest[]" checked value="myRelationshipWithJesus">
+                                    My Relationship with Jesus
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="interest[]" value="discoveryBibleStudy">
+                                    Discovery Bible Studies
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="interest[]" value="prayerOnCampus">
+                                    Campus Prayer
+                                </label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="interest[]" value="discipleshipGroups">
+                                    Discipleship Groups
+                                </label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="interest[]" value="worshipOpportunities">
+                                    Worship Opportunities
+                                </label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="interest[]" value="conferenceAndRetreats">
+                                    Conferences and Retreats
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
