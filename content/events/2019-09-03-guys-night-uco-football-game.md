@@ -1,15 +1,10 @@
 ---
 layout: blog
-title: 'Guy''s Night: UCO Football Game'
-when: Thursday September 5th
-time: '6:45pm'
-where: Wantland Stadium
-what: >-
-  Jackson & Micah will be leading this time for guys to get to know each other
-  and connect on another level. Eat before, or at the game. Whichever you
-  prefer. Topic of discussion will be community and Jesus' disciples. Tickets
-  are free with  your student ID.  Reach out to them: Jackson (405)757-5055 or
-  Micah (918)809-4818
+title: Relationship Workshop
+when: Sunday October 20th
+time: '7:30pm'
+where: TBA
+what: ' Come back early from fall break to enjoy and grow in the topic of dating relationships. Zac and Jessica will both share lessons they have learned and experienced on their ways to finding enriching relationships. We’ll serve a light dinner and sit out by the campfire while discussing this fun topic. Please consider joining us.'
 ctaMessage: ''
 ---
 
