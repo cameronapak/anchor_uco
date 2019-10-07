@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Conversation Cafe
-when: Thursday Night Sept 19
+when: Thursday Nights
 time: '7-8:30'
 where: Nigh University Cafeteria
 what: >-
