@@ -2,7 +2,7 @@
 layout: blog
 title: "Winter Retreat \U0001F3BF  ❄️ "
 when: 'Tuesday, January 7th - Saturday, January 11th'
-time: ONLY FIVE SPOTS LEFT!
+time: ONLY ONE SPOT LEFT!
 where: 'Red River, NM'
 what: >-
   Join us over Christmas Break for growth from the Word, community and skiing
