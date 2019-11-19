@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 'Freedom Night '
-when: Monday Night
+when: Monday Night - DECEMBER 2nd
 time: 7pm
 where: '316 E Thatcher St '
 what: >-
