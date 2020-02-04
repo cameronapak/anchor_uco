@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Spring Break
+title: Spring Break Mission and Equipping
 when: Saturday March 14 - Monday March 16
 time: TBA
 where: 'Country Inn & Suites - 13501 Memorial Park Dr, Oklahoma City'
