@@ -2,7 +2,7 @@
 layout: blog
 title: Prophetic prayer training
 when: 'Saturday, Feb 29'
-time: '10am-noon '
+time: '9am-noon '
 where: Bridgeway Church offices
 what: >-
   Anyone wanting to grow in prayer and hearing God’s voice is invited to come
