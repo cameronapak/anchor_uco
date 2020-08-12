@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Small Groups
+title: Discipleship Groups
 when: Tuesdays 6:30pm to 8pm
 time: ""
 where: Edmond & OKC
