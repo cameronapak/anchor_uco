@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: Discipleship Groups
-when: Tuesdays 6:30pm to 8pm
+title: Anchor Small Groups
+when: Weekly
 time: ""
-where: Edmond & OKC
+where: Provided space for group meetings on Tuesdays between 6:30-8pm @ Bridgeway
 what: "Anchor believes that joy, contentment, and understanding happens most
   frequently within a small group setting. We want to connect you with two to
   three others who are encountering life in the same stage that you are and
@@ -11,5 +11,5 @@ what: "Anchor believes that joy, contentment, and understanding happens most
   interest form below and indicate that you are interested in small groups.
   Meeting time and location varies based on group's availability. "
 ctaMessage: ""
-thumbnail: /images/uploads/img_5449.jpg
+thumbnail: /images/uploads/small-groups-slide-anchor.jpg
 ---
