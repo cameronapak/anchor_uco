@@ -1,9 +1,9 @@
 ---
 layout: blog
 title: Anchor Worship Night
-when: Tuesday October 6th
+when: Tuesday November 3rd
 time: 8:08pm
-where: "Auditorium @ Bridgeway: 228 W Hefner Rd "
+where: "Backroom @ Bridgeway: 228 W Hefner Rd "
 what: "Worshiping God through song and testimony. "
 ctaMessage: link
 ---
