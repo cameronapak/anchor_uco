@@ -1,10 +1,11 @@
 ---
 layout: blog
-title: Carry The Love
-when: Monday November 2nd
-time: "7pm - 9pm "
-where: "228 W Hefner Rd OKC OK "
-what: save the lost, revive the saved, train them all
-ctaMessage: link
-thumbnail: /images/uploads/31ce01979f4342f289363a038d90b6e7.jpeg
+title: Guy's Night
+when: Friday November 20
+time: 8pm-9:30pm
+where: 4109 NW 62nd St OKC OK 73112
+what: An opportunity for Anchor guys and new guys to get to know each other better!
+cta: https://groupme.com/join_group/58370651/rITeknrR
+ctaMessage: Guy's GroupMe
+thumbnail: /images/uploads/guys-night-nov-20.jpg
 ---
