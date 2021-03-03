@@ -6,4 +6,5 @@ time: 8pm
 where: Bridgeway Church Auditorium
 what: March 2nd, April 6th
 ctaMessage: link
+thumbnail: /images/uploads/anchorworshipnight-30of78-.jpg
 ---
