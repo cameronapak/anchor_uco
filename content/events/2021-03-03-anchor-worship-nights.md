@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Anchor Worship Nights
-when: Beginning Fall Semester 2021
+when: Continuing Fall Semester 2021
 time: 7:30pm
 where: Bridgeway Church Auditorium
 what: "Anchor Worship Nights are special times filled with special moments! We
